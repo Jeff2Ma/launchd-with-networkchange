@@ -1,0 +1,13 @@
+.idea
+dynamic.sh
+test.*
+demo.scpt
+./run.applescript
+./com.devework.onnetworkchange.plist
+run.applescript
+
+com.devework.onnetworkchange.plist
+
+*.log
+
+dynamic-tc.sh

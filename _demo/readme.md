@@ -1,0 +1,1 @@
+This directory shows the result demo, which is what happen when you run `python install.py`.
