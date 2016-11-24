@@ -1,6 +1,6 @@
 # launchd with networkchange
 
-A shell script and launchd plist to trigger actions whenever a Mac's network information is changed.
+A tool with shell script and launchd to trigger actions whenever a Mac's network information is changed.
 
 [[简体中文版使用说明] 请点击这里](https://github.com/Jeff2Ma/launchd-with-networkchange/blob/master/readme.zh.md)
 
@@ -10,7 +10,7 @@ This repo is an easy way to deal with contexts like:
 
 > At workplace, your Mac Device has to make some settings such as change proxy address, set specical pac file, open some apps and so on. While at home your have change it again to others.
 
-With the help of `launchd`, those operations can be automated. And that's what this repo do! It is fast, easy and safe.
+With the help of [launchd](https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html), those operations can be automated. And that's what this repo do! It is fast, easy and safe.
 
 ## Features
 
@@ -35,6 +35,10 @@ Then input the info when is asked.
 
 After that, please edit the code in `example.sh ` according to your conditions.
 
+When your Mac's network change, a notification will show when it run shell script with success.
+
+![](_screenshots/notice.png)
+
 ## Notices
 
 1) When the first run of the script, system will ask you like:
@@ -43,9 +47,11 @@ After that, please edit the code in `example.sh ` according to your conditions.
 
 Remember to choose `Always Allow`.
 
-2) If you want to uninstall it, you can run `python install.py uninstall`.
+2）you can make a  `example.sh` copy one and rename it to `dynamic.sh`,it will be run instead of `example.sh`[see how it work](https://github.com/Jeff2Ma/launchd-with-networkchange/blob/master/_demo/run.applescript#L23-L29).
 
-3) Check `/var/log/system.log` if you are having issues with `plist`.
+3) If you want to uninstall it, you can run `python install.py uninstall`.
+
+4) Check `/var/log/system.log` if you are having issues with `plist`.
 
 ## Contributing
 

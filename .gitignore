@@ -2,12 +2,17 @@
 dynamic.sh
 test.*
 demo.scpt
+
 ./run.applescript
 ./com.devework.onnetworkchange.plist
-run.applescript
 
-com.devework.onnetworkchange.plist
+!_demo/run.applescript
+!_demo/com.devework.onnetworkchange.plist
 
 *.log
 
 dynamic-tc.sh
+
+com.devework.onnetworkchange.plist
+
+run.applescript
