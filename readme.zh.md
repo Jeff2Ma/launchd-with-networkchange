@@ -57,7 +57,7 @@ $ python install.py
 
 以下是一些可能用到的Shell 代码帮助你根据个人实际需求定制运行的Shell 基本文件。
 
-提示：你可以将`example.sh`文件复制一份重命名为`dynamic.sh`，直接在`dynamic.sh`上改写代码，两文件同时存在的时候会优先运行`dynamic.sh`（实现方式在[此处源代码](https://github.com/Jeff2Ma/launchd-with-networkchange/blob/master/_demo/run.applescript#L23-L29)）。
+提示：你可以将`example.sh`文件复制一份重命名为`dynamic.sh`，直接在`dynamic.sh`上改写代码，两文件同时存在的时候会优先运行`dynamic.sh`（实现方式在[此处源代码](https://github.com/Jeff2Ma/launchd-with-networkchange/blob/master/_demo/_run.applescript#L23-L29)）。
 
 ### 设置PAC 文件路径
 

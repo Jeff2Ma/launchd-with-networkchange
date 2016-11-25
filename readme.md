@@ -47,7 +47,7 @@ When your Mac's network change, a notification will show when it run shell scrip
 
 Remember to choose `Always Allow`.
 
-2）you can make a  `example.sh` copy one and rename it to `dynamic.sh`,it will be run instead of `example.sh`[see how it work](https://github.com/Jeff2Ma/launchd-with-networkchange/blob/master/_demo/run.applescript#L23-L29).
+2）you can make a  `example.sh` copy one and rename it to `dynamic.sh`,it will be run instead of `example.sh`[see how it work](https://github.com/Jeff2Ma/launchd-with-networkchange/blob/master/_demo/_run.applescript#L23-L29).
 
 3) If you want to uninstall it, you can run `python install.py uninstall`.
 
