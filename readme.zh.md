@@ -8,11 +8,11 @@
 
 > 在工作的时候，你的Mac 设备（特指MacBook、MacBook Air 或MacBook Pro）需要进行一些特殊的环境设置（比如修改代理地址，设置特殊的PAC 文件，需要专门打开某些应用，甚至是默认设备静音）。当下班回到家的时候，这些网络设置需要重新改变以适应你的家庭网络。然而第二天上班又要再次修改，如此往往复复。
 
-借助Mac 中的`launchd`（一个类似 cron 的执行定时任务的东西），我们可以通过监控网络的变化（对于上面的场景具体而言是监控SSID 的变化）来自动触发运行指定脚本。本项目即是这么一个帮你快速配置这个`launchd`服务的一个工具。
+借助Mac 中的`launchd`（一个类似 crontab 的执行定时任务的东西），我们可以通过监控网络的变化（对于上面的场景具体而言是监控SSID 的变化）来自动触发运行指定脚本。本项目即是这么一个帮你快速配置这个`launchd`服务的一个工具。
 
 ## 原理
 
-在Mac 上，当网络有变化的时候(如关闭/开启WiFi)，`/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist`这个文件就会有变化。而借助`launchd`服务中的`WatchPaths`特征，就可以实现监控到文件变化的时候执行指定的脚本文件。
+在Mac 上，当网络有变化的时候(如关闭/开启WiFi，连接到不同SSID 等)，`/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist`这个文件就会有变化。因此借助`launchd`服务中的`WatchPaths`特征，就可以实现监控到文件变化的时候执行指定的脚本文件。
 
 ## 特色
 
