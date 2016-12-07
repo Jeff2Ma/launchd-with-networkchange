@@ -10,6 +10,8 @@
 
 借助Mac 中的`launchd`（一个类似 crontab 的执行定时任务的东西），我们可以通过监控网络的变化（对于上面的场景具体而言是监控SSID 的变化）来自动触发运行指定脚本。本项目即是这么一个帮你快速配置这个`launchd`服务的一个工具。
 
+**相关文章**：《[高效 Mac 人士必备：实现工作/家庭间网络环境切换的自动化](http://devework.com/mac-automatic-network.html)》
+
 ## 原理
 
 在Mac 上，当网络有变化的时候(如关闭/开启WiFi，连接到不同SSID 等)，`/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist`这个文件就会有变化。因此借助`launchd`服务中的`WatchPaths`特征，就可以实现监控到文件变化的时候执行指定的脚本文件。
