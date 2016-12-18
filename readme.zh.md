@@ -125,4 +125,6 @@ launchctl unload ~/Library/LaunchAgents/com.devework.onnetworkchange.plist
 
 ## 贡献
 
+感谢从该[Repo](https://github.com/tjluoma/onnetworkchange) 及该[Alfred Workflow](https://github.com/Jeff2Ma/AlfredWorkflow-DuoTai-Helper) 上获得的灵感。
+
 欢迎通过[Issues](https://github.com/Jeff2Ma/launchd-with-networkchange/issues) 提交bug 或疑问，更欢迎通过[Pull requests](https://github.com/Jeff2Ma/launchd-with-networkchange/pulls) 一起完善代码！

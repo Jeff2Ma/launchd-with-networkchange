@@ -55,4 +55,6 @@ Remember to choose `Always Allow`.
 
 ## Contributing
 
-[Issues](https://github.com/Jeff2Ma/launchd-with-networkchange/issues) and [Pull requests](https://github.com/Jeff2Ma/launchd-with-networkchange/pulls) are welcome.
+Thanks to this [Repo](https://github.com/tjluoma/onnetworkchange) and this [Alfred Workflow](https://github.com/Jeff2Ma/AlfredWorkflow-DuoTai-Helper) to provide inspiration for me.
+
+[Issues](https://github.com/Jeff2Ma/launchd-with-networkchange/issues) and [Pull requests](https://github.com/Jeff2Ma/launchd-with-networkchange/pulls) are warn welcome.
