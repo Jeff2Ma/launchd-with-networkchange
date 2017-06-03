@@ -47,7 +47,7 @@ When your Mac's network change, a notification will show when it run shell scrip
 
 Remember to choose `Always Allow`.
 
-2）you can make a  `example.sh` copy one and rename it to `dynamic.sh`,it will be run instead of `example.sh`[see how it work](https://github.com/Jeff2Ma/launchd-with-networkchange/blob/master/_demo/_run.applescript#L23-L29).
+2）you can make a  `example.sh` copy one and rename it to `dynamic.sh`, it will be run instead of `example.sh`[see how it work](https://github.com/Jeff2Ma/launchd-with-networkchange/blob/master/_demo/_run.applescript#L23-L29).
 
 3) If you want to uninstall it, you can run `python install.py uninstall`.
 
@@ -57,4 +57,4 @@ Remember to choose `Always Allow`.
 
 Thanks to this [Repo](https://github.com/tjluoma/onnetworkchange) and this [Alfred Workflow](https://github.com/Jeff2Ma/AlfredWorkflow-DuoTai-Helper) to provide inspiration for me.
 
-[Issues](https://github.com/Jeff2Ma/launchd-with-networkchange/issues) and [Pull requests](https://github.com/Jeff2Ma/launchd-with-networkchange/pulls) are warn welcome.
+[Issues](https://github.com/Jeff2Ma/launchd-with-networkchange/issues) and [Pull requests](https://github.com/Jeff2Ma/launchd-with-networkchange/pulls) are warm welcome.
