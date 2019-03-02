@@ -17,7 +17,6 @@ at_work_mod()
     /usr/sbin/networksetup -setdnsservers Wi-Fi Empty
 
     # set pac url for work place Wi-Fi
-t
     # slient
     osascript -e "set Volume 0"
 
