@@ -76,6 +76,7 @@ def create_plist_file():
 	<key>WatchPaths</key>
 	<array>
 		<string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
+		<string>/Library/Preferences/SystemConfiguration/com.apple.wifi.message-tracer.plist</string>
 	</array>
 </dict>
 </plist>""" % (appscript_file_path, stdout_log, stderr_log)
